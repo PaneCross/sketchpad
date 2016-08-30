@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sketch Pad</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="sketch.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="button_container">
+		<h1>Sketch Pad Tool</h1>
+		<h3>Move your mouse around to have fun sketching!</h3>
+		<div class="button">
+			<button id="start1" onclick="start(1);">Color Swap</button>
+		</div>
+		<div class="button">
+			<button id="start2" onclick="start(2);">Trailing</button>
+		</div>
+		<div class="button">
+			<button id="start3" onclick="start(3);">Opacity</button>
+		</div>
+		<div class="button">
+			<button id="start4" onclick="start(4);">Random</button>
+		</div>
+		<div id="clear">
+			<button>Clear</button>
+		</div>
+	</div>
+
+	<div id="outer_container">
+		<div id="container">
+			<p>Click a button above to get started!</p>
+		</div>
+	</div>
+
+</body>
+</html>
