@@ -11,7 +11,82 @@
 		<h1>Sketch Pad Tool</h1>
 		<h3>Move your mouse around to have fun sketching!</h3>
 		<div class="button">
-			<button id="start1" onclick="start(1);">Color Swap</button>
+			<button id="start1" oncl<!DOCTYPE html>
+			<html>
+			<head>
+				<title>Sketch Pad</title>
+				<link href="styles.css" rel="stylesheet" type="text/css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+				<script src="sketch.js" type="text/javascript" charset="utf-8"></script>
+
+			</head>
+			<body>
+				<div id="button_container">
+					<p id="head-text"><i>SKETCH PAD TOOL</i>
+						<div id="header-bar"></div>
+					</p>
+
+					<div class="button">
+						<button id="start1" onclick="start(1);"><strong><p class="button-text">COLOR SWAP</p></strong></button>
+					</div>
+					<div class="button">
+						<button id="start2" onclick="start(2);"><strong><p class="button-text">TRAILING</p></strong></button>
+					</div>
+					<div class="button">
+						<button id="start3" onclick="start(3);"><strong><p class="button-text">OPACITY</p></strong></button>
+					</div>
+					<div class="button">
+						<button id="start4" onclick="start(4);"><strong><p class="button-text">RANDOM COLOR</p></strong></button>
+					</div>
+					<div class="button">
+						<button id="start5" onclick="trailGame();"><strong><p class="button-text">TRAIL GAME</p></strong></button>
+					</div>
+					<div class="button" id="clear">
+						<button onclick="clearGrid()"><strong><p class="button-text">CLEAR</p></strong></button>
+					</div>
+					<br>
+
+
+
+					<p id="sub-head-text"><i>Select Grid Size</i></p>
+					<div class="button-input-div">
+						<button marg="-7" class="button-input" id="input1" onclick="setInput(10);"><strong><p class="button-input-text">10</p></strong><div class="input-bar"></div></button>
+
+					</div>
+					<div class="button-input-div">
+						<button marg="93" class="button-input" id="input2" onclick="setInput(20);"><strong><p class="button-input-text">20</p></strong></button>
+
+					</div>
+					<div class="button-input-div">
+						<button marg="193" class="button-input input-highlight" id="input3" onclick="setInput(30);"><strong><p class="button-input-text">30</p></strong></button>
+
+					</div>
+					<div class="button-input-div">
+						<button marg="293" class="button-input" id="input4" onclick="setInput(40);"><strong><p class="button-input-text">40</p></strong></button>
+
+					</div>
+					<div class="button-input-div">
+						<button marg="393" class="button-input" id="input5" onclick="setInput(50);"><strong><p class="button-input-text">50</p></strong></button>
+
+					</div>
+					<div class="button-input-div" id="clear">
+						<button marg="493" class="button-input" onclick="setInput(60)"><strong><p class="button-input-text">60</p></strong></button>
+
+					</div>
+
+				</div>
+
+				<div id="outer_container">
+					<div id="container">
+						<p>Click a button above to get started!</p>
+						<p>Move your mouse around and have fun sketching!</p>
+					</div>
+				</div>
+
+			</body>
+
+			</html>
+ick="start(1);">Color Swap</button>
 		</div>
 		<div class="button">
 			<button id="start2" onclick="start(2);">Trailing</button>
